@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import '../buyer/buyercss/buyerProfile.css';
+import '../buyer/BuyerProfile';
 
 export default function FarmerProfile() {
   const [farmer, setFarmer] = useState(null);
