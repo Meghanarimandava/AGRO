@@ -1,10 +1,10 @@
  
 import { BrowserRouter } from "react-router-dom" 
-import MainNavBar from './main/MainNavBar';
 import BuyerNavBar from './buyer/BuyerNavBar';
 import FarmerNavBar from "./farmer/FarmerNavbar";
 import AdminNavBar from './admin/AdminNavBar';
 import { AuthProvider, useAuth } from "./contextapi/AuthContext";
+import MainNavBar from './main/MainNavBar';
 
 function AppContent() 
 {
