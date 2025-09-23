@@ -19,7 +19,7 @@ import com.klef.fsd.sdp.service.BuyerService;
 public class BuyerController 
 {
    @Autowired
-   private BuyerService buyer
+   private BuyerService buyer;
    @GetMapping("/")
    public String home()
    {
